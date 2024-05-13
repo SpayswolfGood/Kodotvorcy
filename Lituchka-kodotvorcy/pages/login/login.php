@@ -19,18 +19,20 @@
       <main class="main">
         <div class="container">
           <div class="greeting">Добро пожаловать</div>
-          <form class="form" action="">
+          <form class="form" action="../../check_reg.php" method='post'>
             <input
               type="text"
               placeholder="Введите имя"
               required
               class="input-text"
+              name='user_login'
             />
             <input
               type="password"
               placeholder="Введите пороль"
               required
               class="input-text"
+              name='password'
             />
             <button type="submit" class="button-submit">Войти</button>
           </form>
