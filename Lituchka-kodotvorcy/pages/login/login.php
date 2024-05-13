@@ -15,17 +15,20 @@ session_start();
     <link rel="stylesheet" href="login.css" />
     <title>СГТУ-летучки</title>
   </head>
+
   <body class="body">
+    <div class="mascot_one"></div>
+    <div class="mascot_two"></div>
     <div class="layout">
       <header class="header"></header>
       
       <main class="main">
         <div class="container">
-          <div class="greeting">Добро пожаловать</div>
           <form class="form" action="../../check_reg.php" method='post'>
+            <div class="greeting">Добро пожаловать</div>
             <input
               type="text"
-              placeholder="Введите имя"
+              placeholder="Введите логин"
               required
               class="input-text"
               name='user_login'
@@ -41,7 +44,9 @@ session_start();
           </form>
         </div>
       </main>
-     
+      <div class="mascot_one"></div>
+      <div class="mascot_two"></div>
+    
       <footer class="footer"></footer>
     </div>
   </body>
