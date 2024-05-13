@@ -38,13 +38,14 @@ $db->close();
 <body>
     <div class="profile">
         <div class="circle-container">
-          <div class="circle"></div>
+          <div class="circle"><img src="img/ava.svg" alt="" class="img-ava"></div>
         </div>
         <div class="user-info">
-          <h1>Имя <?php echo $user['username']; ?></h1>
+          <h1><?php echo $user['username']; ?></h1>
           <p>Звание: <?php echo $user['rank']; ?></p>
           <p>Группа: <?php echo $user['std_group']; ?></p>
           <p>Рейтинг: <?php echo $user['rating']; ?></p>
+          <div class="magazin-button">Магазин</div>
         </div>
       </div>
 </body>
