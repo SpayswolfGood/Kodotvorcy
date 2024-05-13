@@ -1,223 +1,194 @@
-
-*{
-    padding:0;
-    margin: 0;
-    border:none;
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
 }
 
-.body
-{
-    background-color:#FFF;
+a {
+  text-decoration: none;
 }
 
-.loyaut
-{
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
+.body {
+  background-color: #fff;
 }
 
-header
-{
-    flex-shrink:0;
+.loyaut {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 
-main
-{
-    flex-grow:1;
+header {
+  flex-shrink: 0;
 }
 
-footer
-{
-    flex-shrink:0;
+main {
+  flex-grow: 1;
+}
+
+footer {
+  flex-shrink: 0;
 }
 /*#region Up-menu*/
-.Up-menu
-{
-    background-color:#326DE0;
-    width: 100vw;
-    display: flex;
-    flex-flow:row nowrap;
-    justify-content:center;
+.Up-menu {
+  background-color: #326de0;
+  width: 100vw;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
 }
 
-.Up-menu-center-button-L
-{
-    font-family: 'Open Sans', sans-serif;
-    font-weight:bold;
-    font-size: 1.25vw;
-    color: #FFF;
-    padding-right:5vw;
-    padding-top:37px;
-    padding-bottom:47px;
-    cursor: pointer;
-    margin-left:auto;
-    transition: transform 0.3s ease-out;
+.Up-menu-center-button-L {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 1.25vw;
+  color: #fff;
+  padding-right: 5vw;
+  padding-top: 37px;
+  padding-bottom: 47px;
+  cursor: pointer;
+  margin-left: auto;
+  transition: transform 0.3s ease-out;
 }
 
-.Up-menu-center-button-R
-{
-    font-family: 'Open Sans', sans-serif;
-    font-weight:bold;
-    font-size: 1.25vw;
-    color: #FFF;
-    padding-right:5vw;
-    padding-top:37px;
-    padding-bottom:47px;
-    cursor: pointer;
-    margin-right:auto; 
-    transition: transform 0.3s ease-out;
+.Up-menu-center-button-R {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 1.25vw;
+  color: #fff;
+  padding-right: 5vw;
+  padding-top: 37px;
+  padding-bottom: 47px;
+  cursor: pointer;
+  margin-right: auto;
+  transition: transform 0.3s ease-out;
 }
 
-.Up-menu-center-button
-{
-    font-family: 'Open Sans', sans-serif;
-    font-weight:bold;
-    font-size: 1.25vw;
-    color: #FFF;
-    padding-right:5vw;
-    padding-top:37px;
-    padding-bottom:47px;
-    cursor: pointer;
-    transition: transform 0.3s ease-out;
+.Up-menu-center-button {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 1.25vw;
+  color: #fff;
+  padding-right: 5vw;
+  padding-top: 37px;
+  padding-bottom: 47px;
+  cursor: pointer;
+  transition: transform 0.3s ease-out;
 }
 
-.Up-menu-center-button:hover
-{
-    transform: translateY(-5px);
+.Up-menu-center-button:hover {
+  transform: translateY(-5px);
 }
 
-.Up-menu-center-button-R:hover
-{
-    transform: translateY(-5px);
+.Up-menu-center-button-R:hover {
+  transform: translateY(-5px);
 }
 
-.Up-menu-center-button-L:hover
-{
-    transform: translateY(-5px);
+.Up-menu-center-button-L:hover {
+  transform: translateY(-5px);
 }
 
-.Up-menu-left-button
-{
-    padding-left:43px;
-    padding-top: 32px;
-    display: block;
-    cursor: pointer;
+.Up-menu-left-button {
+  padding-left: 43px;
+  padding-top: 32px;
+  display: block;
+  cursor: pointer;
 }
 
-.Up-menu-left-button-img
-{
-    width: 9vw; 
-    height: auto;
+.Up-menu-left-button-img {
+  width: 9vw;
+  height: auto;
 }
 
-
-.Up-menu-right-button
-{
-    background-color: #FFF;
-    color: #326DE0;
-    border-radius: 30px;
-    padding: 15px 7vw;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-    font-size:1.25vw;
-    text-align: center;
-    display: inline-block;
-    margin-right: 3vw;
-    margin-top: 28px;
-    margin-bottom: 34px;
-    cursor: pointer;
-    transition: transform 0.3s ease-out;
+.Up-menu-right-button {
+  background-color: #fff;
+  color: #326de0;
+  border-radius: 30px;
+  padding: 15px 7vw;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 1.25vw;
+  text-align: center;
+  display: inline-block;
+  margin-right: 3vw;
+  margin-top: 28px;
+  margin-bottom: 34px;
+  cursor: pointer;
+  transition: transform 0.3s ease-out;
 }
 
-.Up-menu-right-button:hover
-{
-    transform: translateY(-5px);
+.Up-menu-right-button:hover {
+  transform: translateY(-5px);
 }
 /*#endregion*/
 
-.down
-{
-    width: 100%;
-    height:20vh;
-    background-color: #2858B4;
+.down {
+  width: 100%;
+  height: 20vh;
+  background-color: #2858b4;
 }
 
-.down2
-{
-    transform:translateY(-20%);
-    width: 100%;
-    height:100%;
-    background-color: #326DE0;
+.down2 {
+  transform: translateY(-20%);
+  width: 100%;
+  height: 100%;
+  background-color: #326de0;
 }
 
 @media screen and (max-width: 800px) {
-    .Up-menu-center-button 
-    {
-        font-size: 2.5vw; 
-    }
+  .Up-menu-center-button {
+    font-size: 2.5vw;
+  }
 
-    .Up-menu-center-button-L
-    {
-        font-size: 2.5vw; 
-    }
+  .Up-menu-center-button-L {
+    font-size: 2.5vw;
+  }
 
-    .Up-menu-center-button-R
-    {
-        font-size: 2.5vw; 
-    }
+  .Up-menu-center-button-R {
+    font-size: 2.5vw;
+  }
 
-    .Up-menu-right-button
-    {
-         font-size:2.5vw;
-    }
-    
+  .Up-menu-right-button {
+    font-size: 2.5vw;
+  }
 }
 
 @media screen and (max-width: 450px) {
-    .Up-menu-left-button
-    {
-        text-align: center;
-        padding:0;
-    }
+  .Up-menu-left-button {
+    text-align: center;
+    padding: 0;
+  }
 
-    .Up-menu-left-button-img
-    {
-        width: 18vw; 
-    }
+  .Up-menu-left-button-img {
+    width: 18vw;
+  }
 
-    .Up-menu-center-button 
-    {
-        font-size: 4vw; 
-        padding:0vw;
-        text-align: center;
-    }
+  .Up-menu-center-button {
+    font-size: 4vw;
+    padding: 0vw;
+    text-align: center;
+  }
 
-    .Up-menu-center-button-L
-    {
-        font-size: 4vw; 
-        padding:0vw;
-        margin:0;
-        text-align: center;
-    }
+  .Up-menu-center-button-L {
+    font-size: 4vw;
+    padding: 0vw;
+    margin: 0;
+    text-align: center;
+  }
 
-    .Up-menu-center-button-R
-    {
-        font-size: 4vw; 
-        padding:0vw;
-        margin:0;
-        text-align: center;
-    }
+  .Up-menu-center-button-R {
+    font-size: 4vw;
+    padding: 0vw;
+    margin: 0;
+    text-align: center;
+  }
 
-    .Up-menu-right-button
-    {
-         font-size:4vw;
-         padding: 15px 3vw;
-    }
+  .Up-menu-right-button {
+    font-size: 4vw;
+    padding: 15px 3vw;
+  }
 
-    .Up-menu
-    {
-        flex-direction: column; 
-    }
-    
+  .Up-menu {
+    flex-direction: column;
+  }
 }
