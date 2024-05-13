@@ -15,7 +15,7 @@
   <body class="body">
     <div class="layout">
       <header class="header"></header>
-      <!--#region main-->
+      
       <main class="main">
         <div class="container">
           <div class="greeting">Добро пожаловать</div>
@@ -38,7 +38,7 @@
           </form>
         </div>
       </main>
-      <!--#endregion main-->
+     
       <footer class="footer"></footer>
     </div>
   </body>
