@@ -6,6 +6,7 @@
 
 a {
   text-decoration: none;
+  color: #fff;
 }
 
 .body {
@@ -116,7 +117,6 @@ footer {
   cursor: pointer;
   transition: transform 0.3s ease-out;
 }
-
 .Up-menu-right-button:hover {
   transform: translateY(-5px);
 }
@@ -191,4 +191,8 @@ footer {
   .Up-menu {
     flex-direction: column;
   }
+}
+
+#button-to-blue {
+  color: #2858b4;
 }

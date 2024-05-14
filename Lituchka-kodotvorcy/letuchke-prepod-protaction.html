@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="letuchke-prepod-protaction.css">
+    <title>Profile</title>
+    
+</head>
+<body>
+       <h1 class="glav-text">Запуск летучки</h1>
+       <div class="input-system">
+        <div class="dropdown">
+            <button class="dropbtn" id="dropdownBtn">Выберите группу</button>
+            <div class="dropdown-content">
+              <a href="#" onclick="changeOption('Название группы','dropdownBtn')">название группы</a>
+              <a href="#" onclick="changeOption('Название группы','dropdownBtn')">название группы</a>
+              <a href="#" onclick="changeOption('Название группы','dropdownBtn')">название группы</a>
+            </div>
+          </div>
+
+          <div class="dropdown">
+            <button class="dropbtn" id="dropdownBtn1">Количество максимальных выходов из вкладки</button>
+            <div class="dropdown-content">
+              <a href="#" onclick="changeOption('1','dropdownBtn1')">1</a>
+              <a href="#" onclick="changeOption('3','dropdownBtn1')">3</a>
+              <a href="#" onclick="changeOption('5','dropdownBtn1')">5</a>
+              <a href="#" onclick="changeOption('Неогроничено','dropdownBtn1')">Неогроничено</a>
+            </div>
+          </div>
+
+          <div class="dropdown">
+            <button class="dropbtn" id="dropdownBtn2">Максимальная длительность выхода из вкладки</button>
+            <div class="dropdown-content">
+              <a href="#" onclick="changeOption('15сек','dropdownBtn2')">15сек</a>
+              <a href="#" onclick="changeOption('30сек','dropdownBtn2')">30сек</a>
+              <a href="#" onclick="changeOption('1мин','dropdownBtn2')">1мин</a>
+              <a href="#" onclick="changeOption('3мин','dropdownBtn2')">3мин</a>
+              <a href="#" onclick="changeOption('Неогроничено','dropdownBtn2')">Неогроничено</a>
+            </div>
+          </div>
+
+          <div class="dropdown">
+            <button class="dropbtn" id="dropdownBtn3">Максимальное время на прохождение летучки</button>
+            <div class="dropdown-content">
+              <a href="#" onclick="changeOption('20мин','dropdownBtn3')">20мин</a>
+              <a href="#" onclick="changeOption('40мин','dropdownBtn3')">40мин</a>
+              <a href="#" onclick="changeOption('1ч','dropdownBtn3')">1ч</a>
+              <a href="#" onclick="changeOption('1ч20мин','dropdownBtn3')">1ч20мин</a>
+              <a href="#" onclick="changeOption('Неогроничено','dropdownBtn3')">Неогроничено</a>
+            </div>
+          </div>
+
+          
+        <a href="#" class="but-st">Начать</a>
+       </div>
+
+       <script>
+        function changeOption(option, id) 
+        {
+            document.getElementById(id).innerHTML = option;
+        }
+       </script>
+</body>
+</html>

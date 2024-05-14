@@ -23,7 +23,7 @@ if (isset($_POST['user_login'], $_POST['password'])) {
             $_SESSION['admin'] = true;
             $_SESSION['user_login'] = $myrow['user_login'];
             $_SESSION['id'] = $myrow['id'];
-            header('Location: https://site.local/adminpanel.php');
+            header('Location: https://online-flyer.ru/adminpanel.php');
         } else {
             if ($password == $myrow['password']) {
                 $_SESSION['user_login'] = $myrow['user_login'];
@@ -31,9 +31,9 @@ if (isset($_POST['user_login'], $_POST['password'])) {
                 $_SESSION['std_group'] = $myrow['std_group'];
                 
                 if ($myrow['role'] == 'Преподаватель') {
-                    header('Location: https://site.local/teacherpanel.php');
+                    header('Location: https://online-flyer.ru/index-prepod.php');
                 } else {
-                    header('Location: https://site.local');
+                    header('Location: https://online-flyer.ru');
                 }
 
             } else {

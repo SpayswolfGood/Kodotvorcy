@@ -1,8 +1,8 @@
 <?php
-$servername = "127.127.126.26";
-$username = "root";
-$passwordd = "";
-$dbname = "site";
+$servername = "localhost";
+$username = "iluxa2qv_flyer";
+$passwordd = "J030EbC&";
+$dbname = "iluxa2qv_flyer";
 
 // Создание подключения
 $db = new mysqli($servername, $username, $passwordd, $dbname);

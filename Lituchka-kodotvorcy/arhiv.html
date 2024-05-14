@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="arhiv.css">
+    <title>Profile</title>
+    
+</head>
+<body>
+       <h1 class="glav-text">Запуск летучки</h1>
+       <div class="input-system">
+
+        <div class="dropdown">
+            <button class="dropbtn" id="dropdownBtn">2024.05.14/Сложение</button>
+            <div class="dropdown-content">
+              <a href="#">2+2=</a>
+              <a href="#">10+10=</a>
+              <a href="#">1234+12234=</a>
+            </div>
+          </div>
+
+       <script>
+        const dropbtn = document.querySelector('.dropbtn');
+        const dropdown = document.querySelector('.dropdown');
+
+        dropbtn.addEventListener('click', function() {
+        dropdown.classList.toggle('active');
+        });
+       </script>
+</body>
+</html>

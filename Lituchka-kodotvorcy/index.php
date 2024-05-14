@@ -2,7 +2,7 @@
 	 session_start();
 	 if (empty($_SESSION['id']))
     {
-      header('Location: https://site.local/login.php');
+      header('Location: https://online-flyer.ru/login.php');
     } 
     ?> 
 <!DOCTYPE html>
@@ -21,10 +21,10 @@
             <div class="Up-menu">
                 <a href="https://www.sstu.ru/" class="Up-menu-left-button"> <img src="img\sstu.svg" alt="" class="Up-menu-left-button-img"> </a>
                 <div class="Up-menu-center-button-L"><a href="Profil-student.php" target="window1">Профиль</a></div>
-                <div class="Up-menu-center-button">Летучки</div>
-                <div class="Up-menu-center-button">Результаты</div>
-                <div class="Up-menu-center-button-R" >Рейтинг</div>
-                <div class="Up-menu-right-button"><a href="logout.php">Выход</a></div>
+                <div class="Up-menu-center-button"><a href="letuchke.php" target="window1">Летучки</a></div>
+                <div class="Up-menu-center-button"><a href="Result.php" target="window1">Результаты</a></div>
+                <div class="Up-menu-center-button-R" ><a href="Reyting.php" target="window1">Рейтинг</div>
+                <div class="Up-menu-right-button"><a href="logout.php" id="buttton-to-blue" style ="color:#326de0;">Выход</a></div>
             </div>
         </header>
 
